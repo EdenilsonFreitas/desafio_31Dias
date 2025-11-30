@@ -18,15 +18,29 @@ for(let i = 0; i < numeros.length; i++){
     }
 }
 //!4. Use um `while` para simular um contador de 10 a 0 e exiba "Lançamento!" quando atingir 0.
+//let contador = 10;
+//while(contador >=10){
+  //  console.log(contador);
+    //contador--;
+//}
 let contador = 10;
-while(contador >=10){
-    console.log(contador);
-    contador--;
+
+while (contador >= 0) {
+  console.log(contador);
+  contador--;
 }
+
+
+
+
 //?5. Escreva um loop que calcula o fatorial de um número (ex: `5! = 5*4*3*2*1`).
+
+
 let fatorial = 5;
 let resultado = 1;
-for(let i = fatorial; i >=1; i--){
-    resultado *= i;
-    
+
+for (let i = fatorial; i >= 1; i--) {
+  resultado *= i;
 }
+
+console.log(resultado); // 120
